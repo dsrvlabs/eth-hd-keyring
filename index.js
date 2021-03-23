@@ -7,7 +7,7 @@ const ethUtil = require('ethereumjs-util')
 const sigUtil = require('eth-sig-util')
 
 // Options:
-const hdPathString = `m/44'/60'/0'/0`
+const hdPathString = `m/44'/52752'/0'/0`
 const type = 'HD Key Tree'
 
 class HdKeyring extends SimpleKeyring {
